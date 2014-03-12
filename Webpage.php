@@ -6,7 +6,7 @@
  * @author emmanueljohn
  */
 class Webpage {
-    //put your code here
+    
     private $content;
     private $links;
     private $pageUrl;
@@ -37,7 +37,4 @@ class Webpage {
     public function setPageUrl($pageUrl) {
         $this->pageUrl = $pageUrl;
     }
-
-
-            
 }
