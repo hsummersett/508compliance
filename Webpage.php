@@ -10,8 +10,11 @@ class Webpage {
     private $content;
     private $links;
     private $pageUrl;
+    private $styles;
+    
     function __construct() {
-        
+        $links = array();
+        $styles = array();
     }
 
     public function getContent() {
